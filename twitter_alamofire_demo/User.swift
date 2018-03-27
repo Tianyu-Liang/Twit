@@ -13,7 +13,11 @@ class User {
     var name: String?
     var screenName: String?
     var imageURL: String?
+    var followers: Int?
+    var friends: Int?
+    var tweetCount: Int?
     var dictionary: [String: Any]?
+    
     private static var _current: User?
     static var current: User? {
         get {
@@ -43,5 +47,9 @@ class User {
         name = dictionary["name"] as? String
         screenName = dictionary["screen_name"] as? String
         imageURL = dictionary["profile_image_url_https"] as? String
+        followers = dictionary["followers_count"] as? Int
+        friends = dictionary["friends_count"] as? Int
+        tweetCount = dictionary["statuses_count"] as? Int
+        
     }
 }

@@ -92,6 +92,7 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      // Get the new view controller using segue.destinationViewController.
      // Pass the selected object to the new view controller.
+        
     
         if(segue.identifier == "Detail")
         {
@@ -105,7 +106,7 @@ class TimelineViewController: UIViewController, UITableViewDelegate, UITableView
             }
             
         }
-        else
+        else if(segue.identifier == "Post")
         {
             let composeViewController = segue.destination as! ComposeViewController
             composeViewController.delegate = self
