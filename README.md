@@ -1,4 +1,4 @@
-# Project 5 - *Twit*
+# Project 5 - *Twit* (Template created by Charles Hieger)
 
 **Twit** is a basic twitter app to read and compose tweets the [Twitter API](https://apps.twitter.com/).
 

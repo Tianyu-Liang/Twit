@@ -2,7 +2,8 @@
 //  APIManager.swift
 //  twitter_alamofire_demo
 //
-//  Created by Charles Hieger on 4/4/17.
+//  Original template Created by Charles Hieger on 4/4/17.
+//  Modified by Tianyu Liang
 //  Copyright © 2017 Charles Hieger. All rights reserved.
 //
 
